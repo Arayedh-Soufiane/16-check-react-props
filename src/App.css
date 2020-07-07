@@ -1,0 +1,17 @@
+.App {
+  text-align: center;
+  background-color: #dfd4c3;
+  border: solid;
+  margin-left: 5%;
+  margin-right: 5%;
+}
+.climg {
+  width: 45%;
+}
+
+
+.clp {
+  display: flex;
+  font-size: 200%;
+ 
+}
