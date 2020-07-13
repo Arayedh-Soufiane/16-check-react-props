@@ -16,8 +16,9 @@ function App() {
         bio="Mechanical engineering is an engineering branch that combines engineering physics and mathematics principles with materials science to design, analyze, manufacture, and maintain mechanical systems"
         profession="Mechanical engineering"
         handelName={handelName}
-      />
-      <img className="cl" src={ImgProf}></img>
+      >
+        <img className="cl" src={ImgProf} alt="" />
+      </ProfileComponents>
     </div>
   );
 }

@@ -5,9 +5,14 @@ import "../App.css";
 export default function ProfileComponents(props) {
   return (
     <div>
-      <button className="btn btn-primary" onClick={() => props.handelName(props.fullName)}>
+      <button
+        className="btn btn-primary"
+        onClick={() => props.handelName(props.fullName)}
+      >
         Alert name of profile
       </button>
+      <div>{props.children}</div>
+
       <hr />
       <div>
         <p className="clp"> Full Name : {props.fullName}</p>
